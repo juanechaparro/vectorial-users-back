@@ -12,7 +12,7 @@ const createAdmin= async(req, res = response)=>{
         if (admin){
             return res.status(400).json({
                 ok:false,
-                msg: 'an Admin already registerd whith this emial'
+                msg: 'an user already registerd whith this email'
             })
         }
         
